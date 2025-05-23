@@ -1,3 +1,4 @@
+/* Variables CSS */
 :root {
     --color-primary: #123456;
     --color-secondary: #FFF;
@@ -7,6 +8,7 @@
     --linear-botes: linear-gradient(180deg, #B872FF 0%, #144480 100%);
 }
 
+/* Colores de fondo por contexto (enfoque, descanso corto, descanso largo) */
 [data-contexto="enfoque"] {
     --main-bg-color: linear-gradient(180deg, #8B1FF8 0%, #041832 48.44%, #01080E 100%);
 }
@@ -19,17 +21,20 @@
     --main-bg-color: linear-gradient(180deg, #1875E9 0%, #041832 48.44%, #01080E 100%);
 }
 
+/* Reseteo y configuración global de caja */
 * {
     box-sizing: border-box;
     max-width: 100%;
 }
 
+/* Estilos de fondo y fuente base para HTML */
 html {
     background: var(--main-bg-color);
     min-height: 100vh;
     font-size: 10px;
 }
 
+/* Estilos de fondo y patrón para el cuerpo */
 body {
     min-height: 100vh;
     background: url("/imagenes/pattern.png");
@@ -37,6 +42,7 @@ body {
     background-repeat: no-repeat;
 }
 
+/* Fuentes para todos los encabezados */
 h1,
 h2,
 h3,
@@ -46,12 +52,14 @@ h6 {
     font-family: 'Unbounded', cursive;
 }
 
+/* Estilos del logo */
 .app__logo-figure {
     display: flex;
     justify-content: center;
     padding: 4rem 0;
 }
 
+/* Contenedor del banner principal */
 .app__section-banner-container {
     width: 99rem;
     margin: 0 auto;
@@ -62,6 +70,7 @@ h6 {
     flex-wrap: wrap;
 }
 
+/* Estilos del título principal */
 .app__title {
     line-height: 150%;
     font-size: 5.2rem;
@@ -71,15 +80,18 @@ h6 {
     max-width: 46rem;
 }
 
+/* Estilo para el texto fuerte dentro del título */
 .app__title-strong {
     font-weight: 600;
 }
 
+/* Contenedor de la tarjeta principal (temporizador y controles) */
 .app__section-card-container {
     display: flex;
     justify-content: center;
 }
 
+/* Estilos de la tarjeta principal */
 .app__card {
     border-radius: 3.2rem;
     border: 0.2rem solid var(--azul-royal);
@@ -90,6 +102,7 @@ h6 {
     max-width: 90%;
 }
 
+/* Lista de elementos dentro de la tarjeta */
 .app__card-list {
     list-style: none;
     padding: 0;
@@ -100,6 +113,7 @@ h6 {
     gap: 1.6rem;
 }
 
+/* Estilos de los botones de la tarjeta */
 .app__card-button {
     font-family: Montserrat;
     font-size: 1.8rem;
@@ -114,12 +128,14 @@ h6 {
     outline: inherit;
 }
 
+/* Estilo para el botón activo */
 .app__card-button.active {
     border-radius: 0.8rem;
     background: var(--azul-royal);
     font-weight: 600;
 }
 
+/* Estilos del temporizador */
 .app__card-timer {
     color: var(--color-secondary);
     text-align: center;
@@ -132,6 +148,7 @@ h6 {
     text-align: center;
 }
 
+/* Etiqueta de la lista de la tarjeta (para "Música") */
 .app__card-list-label {
     color: var(--color-secondary);
     font-family: Montserrat;
@@ -140,12 +157,14 @@ h6 {
     font-weight: 400;
 }
 
+/* Contenedor del botón principal (Comenzar/Pausar) */
 .app__card-primary-button-wrapper {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/* Estilos del botón principal */
 .app__card-primary-button {
     padding: 0.8rem;
     width: 12rem;
@@ -163,6 +182,7 @@ h6 {
     gap: 1rem;
 }
 
+/* Estilos del pie de página */
 .app__footer {
     display: flex;
     width: 100%;
@@ -172,6 +192,7 @@ h6 {
     background: #010B15;
 }
 
+/* Estilos del texto del pie de página */
 .app__footer-text {
     color: rgba(182, 182, 182, 0.8);
     text-align: center;
@@ -182,7 +203,7 @@ h6 {
     line-height: 150%;
 }
 
-/* toggle */
+/* Estilos del componente "toggle" (interruptor de música) */
 .toggle {
     cursor: pointer;
     display: inline-block;
@@ -233,7 +254,7 @@ h6 {
     visibility: hidden;
 }
 
-/* fim - toggle */
+/* Fin de estilos del toggle */
 
 /* Para Tablets */
 @media (max-width: 1024px) and (min-width: 768px) {
