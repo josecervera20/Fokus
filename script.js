@@ -81,7 +81,7 @@ function cambiarContexto(contexto) {
   // Actualiza el atributo 'data-contexto' en el HTML para cambiar el fondo
   html.setAttribute("data-contexto", contexto);
   // Cambia la imagen del banner según el contexto
-  banner.setAttribute("src", `/imagenes/${contexto}.png`);
+  banner.setAttribute("src", `./imagenes/${contexto}.png`);
 
   // Actualiza el título de la aplicación según el contexto
   switch (contexto) {
@@ -142,7 +142,7 @@ function iniciarOpausar() {
   audioPlay.play();
   idIntervalo = setInterval(cuentaRegresiva, 1000);
   textoIniciarPausar.textContent = "Pausar";
-  iconoIniciarPausar.setAttribute("src", `/imagenes/pause.png`);
+  iconoIniciarPausar.setAttribute("src", `./imagenes/pause.png`);
 }
 
 /**
@@ -152,7 +152,7 @@ function iniciarOpausar() {
 function reiniciar() {
   clearInterval(idIntervalo);
   textoIniciarPausar.textContent = "Comenzar";
-  iconoIniciarPausar.setAttribute("src", `/imagenes/play_arrow.png`);
+  iconoIniciarPausar.setAttribute("src", `./imagenes/play_arrow.png`);
   idIntervalo = null;
 }
 
