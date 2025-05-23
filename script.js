@@ -9,7 +9,7 @@ const botones = document.querySelectorAll(".app__card-button");
 const botonIniciarPausar = document.querySelector("#start-pause");
 const inputMusicaEnfoque = document.querySelector("#alternar-musica");
 const textoIniciarPausar = document.querySelector("#start-pause span");
-const iconoIniciarPausar = document.querySelector(".app__card-primary-butto-icon");
+const iconoIniciarPausar = document.querySelector(".app__card-primary-button-icon");
 const tiempoEnPantalla = document.querySelector("#timer");
 
 // Instancias de Objetos de Audio
