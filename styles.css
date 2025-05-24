@@ -37,7 +37,7 @@ html {
 /* Estilos de fondo y patrón para el cuerpo */
 body {
     min-height: 100vh;
-    background: url("/imagenes/pattern.png");
+    background: url("./imagenes/pattern.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
