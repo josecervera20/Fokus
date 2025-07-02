@@ -1,7 +1,5 @@
 # 🎯 Fokus: Temporizador Pomodoro Interactivo
 
----
-
 ## 📝 Descripción del Proyecto
 
 **Fokus** es una **aplicación web de temporizador al estilo Pomodoro** diseñada para **impulsar tu productividad** a través de ciclos de trabajo enfocado y descansos estratégicos. Desarrollado como parte del **"Curso de JavaScript: Manipulando elementos en el DOM"**, este proyecto es una demostración práctica de cómo JavaScript puede transformar una simple página web en una **experiencia interactiva y dinámica**.
@@ -31,15 +29,11 @@ La aplicación opera mediante la **manipulación directa del DOM** en tiempo rea
 - **Feedback Sensorial:** Emplea la **API de `Audio`** para reproducir sonidos que te alertan sobre el final del tiempo o el inicio/pausa.
 - **Interacción Total:** Captura las acciones del usuario (clics en botones, cambios en checkboxes) a través de `eventListeners` para una experiencia totalmente responsiva.
 
----
-
 ## 💻 Tecnologías Utilizadas
 
 - **HTML5**: La columna vertebral del contenido.
 - **CSS3**: El pincel que da vida y diseño responsivo a la interfaz.
 - **JavaScript ES6+**: El cerebro detrás de toda la interactividad y lógica.
-
----
 
 ## ⚙️ Cómo Instalar y Ejecutar
 
@@ -58,8 +52,6 @@ La aplicación opera mediante la **manipulación directa del DOM** en tiempo rea
 
 ¡Y listo! No necesitas configuraciones de servidor complicadas ni dependencias adicionales.
 
----
-
 ## Cómo Utilizar el Proyecto 🧑‍💻
 
 Una vez que la aplicación esté cargada en tu navegador, ¡es hora de ponerla a trabajar!
@@ -69,12 +61,12 @@ Una vez que la aplicación esté cargada en tu navegador, ¡es hora de ponerla a
 3.  **Música Ambiental**: Usa el interruptor de música para activar o desactivar una melodía relajante de fondo.
 4.  **Notificación de Fin**: Cuando el temporizador llegue a cero, escucharás un sonido y una alerta aparecerá en pantalla. Haz clic en "Aceptar" para continuar tu flujo.
 
----
-
 ## 🙌 Agradecimientos
 
 Este proyecto fue posible gracias a los conocimientos adquiridos en el curso de **Alura Latam**.
 
 👩‍🏫 Un agradecimiento especial a la instructora **Barbara Santos**, por su dedicación, claridad y excelente enseñanza que hicieron posible este aprendizaje.
 
----
+## 📄 Licencia
+
+Este proyecto es de código abierto y se publica bajo la [Licencia MIT](LICENSE). Siéntete libre de usar, modificar y distribuir este código para tus propios proyectos.
